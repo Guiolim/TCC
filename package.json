@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Servidor de backend para estudo da Turma B do 3o. Info 2025",
   "main": "src/server.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node --watch src/server.js"
   },
@@ -15,6 +15,7 @@
   "author": "Lucas Dunke Ramalho",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "zod": "^3.24.2"
   }
 }
