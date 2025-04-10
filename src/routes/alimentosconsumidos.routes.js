@@ -1,10 +1,10 @@
 import express from 'express';
 const router = express.Router();
 
-import AlimentoConsumidoController from '../controllers/alimentosconsumidos.controller.js';
+import AlimentosConsumidosController from '../controllers/alimentosconsumidos.controller.js';
 
-router.post("/alimentosconsumidos", AlimentoConsumidoController.createAlimentoConsumido);
-router.patch("/alimentosconsumidos/:id", AlimentoConsumidoController.updateAlimentoConsumido);
-router.delete("/alimentosconsumidos/:id", AlimentoConsumidoController.deleteAlimentoConsumido);
+router.post("/alimentosconsumidos", AlimentosConsumidosController.createAlimentoConsumido);
+router.patch("/alimentosconsumidos/:id", AlimentosConsumidosController.updateAlimentosConsumidos);
+router.delete("/alimentosconsumidos/:id", AlimentosConsumidosController.deleteAlimentosConsumidos);
 
 export default router;
