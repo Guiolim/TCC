@@ -15,7 +15,7 @@ import routesAlimentosConsumidos from './routes/alimentosconsumidos.routes.js';
 const PORT = process.env.PORT || 3000;
 
 server.use(express.json());
-
+// 
 // Registrando rotas com o prefixo /api
 server.use("/api", routesUser);
 server.use("/api", routesPayment);
