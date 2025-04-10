@@ -9,7 +9,7 @@ const AlimentosConsumidosSchema = z.object({
     observacoes: z.string().optional(),
 });
 const AlimentosConsumidosController = {
-    async createAlimentoConsumido(req, res) {
+    async createAlimentosConsumidos(req, res) {
         try {
             const payload = req.body;
             AlimentosConsumidosSchema.parse(payload);
