@@ -7,6 +7,4 @@ router.post("/alimentosconsumidos", AlimentoConsumidoController.createAlimentoCo
 router.patch("/alimentosconsumidos/:id", AlimentoConsumidoController.updateAlimentoConsumido);
 router.delete("/alimentosconsumidos/:id", AlimentoConsumidoController.deleteAlimentoConsumido);
 
-
-
 export default router;

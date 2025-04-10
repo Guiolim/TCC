@@ -1,3 +1,4 @@
+import { z } from "zod";
 const UserSchema = z.object({
     nome: z.string().min(1, { message: "Nome é obrigatório" }),
     sobrenome: z.string().min(1, { message: "Sobrenome é obrigatório" }),

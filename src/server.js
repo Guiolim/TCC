@@ -8,7 +8,7 @@ import routesMyProgression from './routes/myprogression.routes.js';
 import routesTreinos from './routes/treinos.routes.js';
 import routesProgressaoCarga from './routes/progressaocarga.routes.js';
 import routesAvaliacoes from './routes/avaliacoes.routes.js';
-import routesPersonalTrainer from './routes/personaltrainer.routes.js';
+import routesPersonalTrainer from './routes/personaltrainers.routes.js';
 import routesAlimentos from './routes/alimentos.routes.js';
 import routesAlimentosConsumidos from './routes/alimentosconsumidos.routes.js';
 

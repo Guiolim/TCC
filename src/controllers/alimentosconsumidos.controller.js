@@ -9,7 +9,7 @@ const AlimentoConsumidoSchema = z.object({
     observacoes: z.string().optional(),
 });
 const AlimentoConsumidoController = {
-    async createRegistro(req, res) {
+    async createAlimentoConsumido(req, res) {
         try {
             const payload = req.body;
             AlimentoConsumidoSchema.parse(payload);
@@ -22,7 +22,7 @@ const AlimentoConsumidoController = {
         }
     },
 
-    async updateRegistro(req, res) {
+    async updateAlimentoConsumido(req, res) {
         const { id } = req.params;
         try {
             const payload = req.body;
@@ -37,7 +37,7 @@ const AlimentoConsumidoController = {
         }
     },
 
-    async deleteRegistro(req, res) {
+    async deleteAlimentoConsumido(req, res) {
         try {
             const { id } = req.params;
             return res.status(200).json({ message: 'Registro de alimento consumido removido', data: { id } });
